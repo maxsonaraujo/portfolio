@@ -3,59 +3,89 @@ import { Sidebar } from "@/components/organisms/sidebar";
 import { SidebarMenuItem } from "@/components/molecules/sidebarMenuItem";
 import { Content } from "@/components/organisms/content";
 import { About } from "../organisms/about";
+import { IDictionary } from "@/lib/dictionary";
+import { GeneralContent } from "../organisms/generalContent";
+import { Home } from "../organisms/home";
+import { Skills } from "../organisms/skills";
 
 
-export function Portifolio({ dictionary, profile }: { dictionary: any, profile: any }) {
+export function Portifolio({ dictionary }: { dictionary: IDictionary }) {
 
+    const home = "home";
     const about = "about";
-    const experience = "experience";
-    const education = "education";
-    const skills = "skills";
     const projects = "projects";
+    const experience = "experience";
+    const skills = "skills";
+    const education = "education";
 
     return (
         <div className="flex">
-            <Sidebar>
-                <SidebarAvatar src={profile.avatar} />
-                <SidebarMenuItem anchor={about} label={dictionary.about} />
-                <SidebarMenuItem anchor={experience} label={dictionary.experience} />
-                <SidebarMenuItem anchor={education} label={dictionary.education} />
-                <SidebarMenuItem anchor={skills} label={dictionary.skills} />
-                <SidebarMenuItem anchor={projects} label={dictionary.projects} />
+            <Sidebar dictionary={dictionary}>
+                <SidebarAvatar src={dictionary.profile.avatar} />
+                <SidebarMenuItem anchor={home} label={dictionary.sidebarMenu.home} />
+                <SidebarMenuItem anchor={about} label={dictionary.sidebarMenu.about} />
+                <SidebarMenuItem anchor={experience} label={dictionary.sidebarMenu.experience} />
+                <SidebarMenuItem anchor={skills} label={dictionary.sidebarMenu.skills} />
+                <SidebarMenuItem anchor={projects} label={dictionary.sidebarMenu.projects} />
+                <SidebarMenuItem anchor={education} label={dictionary.sidebarMenu.education} />
             </Sidebar>
 
             <div className="w-full max-h-screen overflow-auto snap-mandatory snap-y">
+                <Home
+                    anchor={home}
+                    infor={dictionary.home}
+                />
                 <About
                     anchor={about}
                     //...
                     infor={
                         {
-                            aboutMe: dictionary.aboutMe,
-                            firstName: profile.firstName,
-                            lastName: profile.lastName,
-                            address: profile.address,
-                            phone: profile.phone,
-                            email: profile.email,
-                            github: profile.github,
-                            instagram: profile.instagram,
-                            linkdin: profile.linkdin,
-                            whatsapp: profile.whatsapp
+                            aboutMe: dictionary.about.aboutMe,
+                            firstName: dictionary.profile.firstName,
+                            lastName: dictionary.profile.lastName,
+                            birthday: dictionary.profile.birthday,
+                            address: dictionary.profile.address,
+                            phone: dictionary.profile.phone,
+                            email: dictionary.profile.email,
+                            github: dictionary.profile.github,
+                            instagram: dictionary.profile.instagram,
+                            linkdin: dictionary.profile.linkedin,
+                            whatsapp: dictionary.profile.whatsapp
                         }
                     }
                 />
+                <GeneralContent
+                    anchor={experience}
+                    infor={{
+                        title: dictionary.experience.title,
+                        projects: dictionary.experience.list
+                    }}
+                />
 
-                <Content anchor="experience">
-                    OI
-                </Content>
-                <Content anchor="education">
-                    OI
-                </Content>
-                <Content anchor="skills">
-                    OI
-                </Content>
-                <Content anchor="projects">
-                    OI
-                </Content>
+                <Skills
+                    anchor={skills}
+                    infor={dictionary.skills}
+                />
+
+                <GeneralContent
+                    anchor={projects}
+                    //...
+                    infor={{
+                        title: dictionary.projects.title,
+                        projects: dictionary.projects.list
+                    }}
+                />
+
+
+                <GeneralContent
+                    anchor={education}
+                    //...
+                    infor={{
+                        title: dictionary.education.title,
+                        projects: dictionary.education.list
+                    }}
+                />
+
             </div>
         </div>
     );

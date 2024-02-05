@@ -3,6 +3,9 @@ import { Inter as FontSans } from "next/font/google"
 
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider";
+import Head from "next/head";
+import { getDictionaries } from "@/lib/dictionary";
+import { PortfolioHead } from "@/components/atoms/portifolioHead";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -15,25 +18,10 @@ export default function RootLayout({ children, params }: Readonly<{
 }>) {
 
   const lang = params.lang;
+  const dictionary = getDictionaries(lang)
 
-  return (
-    <html lang={lang} suppressHydrationWarning>
-      <head />
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
-        )}
-      >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-      </body>
-    </html>
+  return (<>
+    {children}
+  </>
   )
 }

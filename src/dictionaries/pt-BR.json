@@ -1,0 +1,222 @@
+{
+    "copyright":"Copyright (c) 2024 Maxson Araújo. Todos os direitos reservados.",
+    "sidebarMenu": {
+        "home": "Início",
+        "about": "Sobre Mim",
+        "experience": "Experiência Profissional",
+        "education": "Educação e Certificações",
+        "skills": "Habilidades Técnicas",
+        "projects": "Projetos Significativos"
+    },
+    "home": {
+        "wellcome": "Bem vindo ao meu universo digital!",
+        "presentation": "Meu nome é Maxson Araújo, Gerente de TI e apaixonado por programação. Este espaço é dedicado a apresentar o meu percurso profissional de maneira dinâmica e inovadora. O Projeto Portfólio Digital foi concebido com o propósito de oferecer uma visão abrangente dos principais marcos da minha carreira como programador."
+    },
+    "about": {
+        "aboutMe": "Sou um Analista e Desenvolvedor de Sistemas Full Stack com ênfase em Typescript, Next.js e React Native, também proficientes em Python. Destaco minha experiência na criação de automações de processos bancários para Corbans, atuando em projetos desafiadores para diversos bancos. Além disso, sou o principal responsável pelo desenvolvimento do aplicativo Smart Signature, disponível na App Store e Play Store. Minha abordagem centrada no aprendizado fácil, adaptação a mudanças e busca constante por desenvolvimento profissional define meu perfil. Estou aberto a oportunidades que ofereçam crescimento e desafios estimulantes."
+    },
+    "projects": {
+        "title": "Projetos",
+        "list": [
+            {
+                "title": "Este Porfólio: (EXTRA)",
+                "subTitle": "Desenvolvimento do Portfólio para Apresentação Pessoal.",
+                "description": "Maxson Araújo - 2024",
+                "content": "O Portfólio Digital é fruto de uma criação integral, sendo disponibilizado em meu repositório no GitHub por meio do link abaixo. Esta iniciativa faz parte do compromisso de contribuir para o desenvolvimento de códigos abertos, uma vez que todos os projetos anteriores nos quais estive envolvido pertencem a empresas privadas e não podem ser compartilhados. O objetivo principal deste projeto é proporcionar uma visão abrangente dos marcos significativos em minha trajetória como programador.",
+                "links": [
+                    "https://github.com/maxsonaraujo/portfolio"
+                ],
+                "screens": []
+            },
+            {
+                "title": "Automatização Eficiente: Bureau de Propostas",
+                "subTitle": "Desenvolvimento do Bureau e Integração de RPAs para Otimização da Liberação de Propostas",
+                "description": "Alcifmais - 2023",
+                "content": "  Como líder da equipe, fui estrategicamente encarregado de dirigir a concepção e implementação do Bureau de Propostas, uma solução revolucionária que automatiza integralmente o processo de liberação de crédito. A proposta original partiu da visão central da empresa, porém, destaco meu papel crucial na arquitetura da automação, onde apresentei uma abordagem inovadora. Sob minha liderança, desenvolvemos e entregamos com sucesso o projeto, que inclui a criação de Robotic Process Automations (RPAs) para as operações de busca e aprovação de propostas. Além disso, implementamos um Bureau que classificava as operações importadas com base nos critérios internos da empresa, direcionando-as para aprovação ou rejeição.\n\n Vale ressaltar que esse trabalho foi realizado como prestador de serviço para o cliente Alcifmais, um dos maiores correspondentes bancários na área de consignados do Brasil. A contribuição da minha proposta arquitetônica não apenas aumentou a eficiência operacional e reduziu o tempo de aprovação, mas também otimizou o fluxo de trabalho interno, resultando em uma significativa melhoria na experiência do usuário final.",
+                "links": [
+                    "https://www.linkedin.com/company/alcifmais",
+                    "https://github.com/alcifmais/alcifroot"
+                ],
+                "screens": []
+            },
+            {
+                "title": "Smart Signature",
+                "subTitle": "Aplicativo jurídico online: consultoria, processos, contratos para Micro e Pequenas Empresas.",
+                "description": "TriggerUp - 2022",
+                "content": "Desempenhei um papel crucial na concepção e implementação de um inovador aplicativo de consultoria e assessoria jurídica online, em colaboração com minha equipe pela TriggerUp. Nosso trabalho foi fundamental para o lançamento bem-sucedido do aplicativo em ambas as plataformas, App Store e Play Store.\n\nO sistema, direcionado às Micros e Pequenas Empresas, destaca-se pela eficiência, dinamismo e acessibilidade. Liderei a criação de um ambiente digital permitindo consultas instantâneas a advogados via mensagens, proporcionando orientações vitais para o desenvolvimento dos negócios.",
+                "links": [
+                    "https://play.google.com/store/apps/details?id=br.com.smartsignature",
+                    "https://apps.apple.com/us/app/smart-signature/id1577219766"
+                ],
+                "screens": [
+                    "/img/400x800bb.png",
+                    "/img/400x800bb2.png",
+                    "/img/400x800bb3.png",
+                    "/img/400x800bb4.png"
+                ]
+            },
+            {
+                "title": "SigaCall",
+                "subTitle": "Sistema de Chamadas para Clínicas e Consultórios",
+                "description": "AMMPI - 2023",
+                "content": "Desenvolvi um aplicativo inovador para TVs, integrado a consultórios médicos. O objetivo era agilizar o chamado de pacientes, eliminando a necessidade de pessoal dedicado. Dividido em dois componentes, o app para TV anuncia o paciente com voz configurável, enquanto o app web permite aos profissionais gerenciar chamadas e emitir alertas nos corredores. Destaco a integração direta com sistemas médicos, simplificando processos. Essa solução visa otimizar o fluxo de pacientes e a experiência no ambiente clínico.",
+                "links": [
+                    "https://github.com/maxsonaraujo/SigaCall"
+                ],
+                "screens": [
+                    "/img/96e9b14a-cf43-4813-841f-3aee33ea6632.jpeg",
+                    "/img/038e0045-5aeb-4bbd-9c21-5e31beb7ab4a.jpeg",
+                    "/img/ammpi-image.jpeg"
+                ]
+            },
+            {
+                "title": "Whatsapp Atendimento",
+                "subTitle": "Sistema de Atendimento para Whatsapp.",
+                "description": "Clinica 28 de Julho - 2021",
+                "content": "Como Desenvolvedor Júnior na Clínica 28 de Julho, fui responsável por conceber e implementar diversas ferramentas de automação que contribuíram significativamente para a eficiência operacional da clínica. Destaco, em particular, a criação de um Sistema de Atendimento via WhatsApp, uma iniciativa inovadora na época em que a modalidade de ferramenta ainda não era tão popular.                ",
+                "links": [
+                    "https://github.com/maxsonaraujo/SigaCall"
+                ],
+                "screens": []
+            },
+            {
+                "title": "Outros",
+                "subTitle": "Desenvolvimento Geral de Ferramentas e Automações",
+                "description": "Maxson Araújo",
+                "content": "Ao longo da minha trajetória profissional, engajei-me em mais de 200 projetos, abrangendo automações com RPAs, desenvolvimento de ferramentas (Web, Desktop e Mobile), integração por meio de APIs, e outras soluções inovadoras. Experienciei a função de TechLead em uma variedade de projetos, tanto em contextos de freelancers quanto na prestação de serviços. Minha atuação abrangeu a liderança técnica, contribuindo para o sucesso e eficiência desses empreendimentos.",
+                "links": [
+                    "https://www.linkedin.com/in/maxsonaraujo",
+                    "https://github.com/maxsonaraujo"
+                ],
+                "screens": []
+            }
+        ]
+    },
+    "skills": {
+        "title": "Habilidades Técnicas",
+        "skills": [
+            {
+                "title": "Desenvolvimento Full Stack:",
+                "subTitle": "Desenvolvimento Full Stack com expertise tanto no Front-end quanto no Back-end",
+                "description": "",
+                "content": "Front-end:\n         - TypeScript (Avançado)\n         - Next.js (Intermediário)\n         - React Native - Expo (Avançado)\n         - React (Avançado)\n         - Chakra UI, Shadcn UI, Tailwindcss\n   Back-end:\n         - Node.js (Avançado)\n         - Python (Intermediário)\n         - Express (Avançado)\n         - Next.js, elysia.js\n         - Banco de dados:\n              - Experiência com diversos bancos de dados (MySQL, PostgreSQL, MongoDB)\nDesktop:\n- C# com WPF e WindowsForms\n- Electron.js\n- Java",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "DevOps",
+                "subTitle": "Experiência em ferramentas essenciais para automação e orquestração de ambientes                ",
+                "description": "",
+                "content": "- Docker (Avançado)\n         - Swarm (Intermediário)\n         - Jenkins (Básico)",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Automação de Processos",
+                "subTitle": "Especialista em Automação de Processos, com foco em eficiência operacional e otimização de tarefas por meio de tecnologias avançadas",
+                "description": "",
+                "content": "- Robôs de automação em páginas web:\n              - Playwright (Avançado)\n              - Puppeteer (Intermediário)",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Outras Habilidades",
+                "subTitle": "",
+                "description": "",
+                "content": "- Criação de APIs RESTful\n         - Desenvolvimento de dashboards interativos",
+                "links": [],
+                "screens": []
+            }
+        ]
+    },
+    "experience": {
+        "title": "Experiências Profissionais",
+        "list": [
+            {
+                "title": "Gerente de desenvolvimento de software",
+                "subTitle": "janeiro de 2023 - Até o momento atual.",
+                "description": "Alcifmais - Itabuna, Bahia, Brasil",
+                "content": "Como Gerente de Desenvolvimento de Software, liderei e supervisionei diretamente projetos de desenvolvimento, tanto internos quanto terceirizados, garantindo a entrega bem-sucedida e dentro dos prazos estabelecidos. Mantive minhas funções anteriores de Tech Leader e Team Leader, continuando a fornecer orientação técnica e liderança eficaz para a equipe.\nMinhas responsabilidades abrangeram a gestão eficiente de implantações de Chatbot, resultando em soluções interativas e eficazes para a empresa. Além disso, destaco a criação e implementação de ferramentas, a maioria focada na automação de processos, contribuindo para a eficiência operacional.\nComo parte da minha atuação, conduzi a implantação bem-sucedida de uma estrutura DevOps utilizando Docker e Swarm, aprimorando significativamente os processos de deploy e automação. Meu compromisso contínuo com a inovação e liderança técnica foi fundamental para o sucesso e avanço dos projetos sob minha gestão.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Tech Leader",
+                "subTitle": "junho de 2022 - dezembro de 2022 (7 meses)",
+                "description": "Alcifmais - Itabuna, Bahia, Brasil",
+                "content": "Como Team Leader, fui estrategicamente designado para liderar a concepção e desenvolvimento do Bureau de Propostas, uma solução inovadora que automatiza o processo de liberação. Minha posição como líder foi atribuída devido à contribuição singular da ideia e estrutura que propus, resultando não apenas em eficiência operacional e redução do tempo de aprovação, mas também na otimização do fluxo de trabalho interno e na melhoria da experiência do usuário final.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Team Leader",
+                "subTitle": "janeiro de 2022 - maio de 2022 (5 meses))",
+                "description": "Alcifmais - Itabuna, Bahia, Brasil",
+                "content": "Como Team Leader, fui estrategicamente designado para liderar a concepção e desenvolvimento do Bureau de Propostas, uma solução inovadora que automatiza o processo de liberação. Minha posição como líder foi atribuída devido à contribuição singular da ideia e estrutura que propus, resultando não apenas em eficiência operacional e redução do tempo de aprovação, mas também na otimização do fluxo de trabalho interno e na melhoria da experiência do usuário final.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Desenvolvedor full stack",
+                "subTitle": "setembro de 2021 - dezembro de 2021 (4 meses)",
+                "description": "Alcifmais - Itabuna, Bahia, Brasil",
+                "content": "Como Desenvolvedor Full Stack na equipe de TI-Desenvolvimento da Alcifmais, fui encarregado de uma ampla variedade de responsabilidades, demonstrando habilidades técnicas e expertise em várias fases do ciclo de vida do desenvolvimento de software.\nPrincipais Realizações:\n* Refatoração de Sistema Delphi para TypeScript e Express\n* Implementação de Bureau de Propostas para Liberação Automatizada\n* Criação de Robôs de Automatização Bancária",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Desenvolvedor full stack",
+                "subTitle": "janeiro de 2021 - junho de 2023 (2 anos 6 meses)",
+                "description": "TriggerUp - Itabuna, Bahia, Brasil",
+                "content": "Como Desenvolvedor Full Stack freelancer na TriggerUP, contribuí para o desenvolvimento e implementação de soluções de software personalizadas para empresas. Minha atuação abrangeu tanto o front-end quanto o backend, participando ativamente na criação de sistemas eficientes e inovadores.\nColaborei de forma proativa com a equipe da TriggerUP, garantindo a entrega de projetos alinhados às necessidades específicas de cada cliente.\nMinha experiência nessa posição reforçou minhas habilidades técnicas, adaptabilidade e compromisso em fornecer soluções de alta qualidade em um ambiente dinâmico de trabalho freelancer.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Gerente de desenvolvimento",
+                "subTitle": "junho de 2020 - setembro de 2021 (1 ano 4 meses)",
+                "description": "Clinica Médica 28 de Julho - Itabuna, Bahia, Brasil",
+                "content": "Diante do crescimento e complexidade dos projetos, assumi o papel de gestor, coordenando não apenas as iniciativas internas, mas também supervisionando projetos realizados por empresas terceirizadas.\nMinha atuação abrangeu desde a concepção até a implementação eficiente de soluções tecnológicas que aprimoraram significativamente os processos internos da clínica.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Desenvolvedor Junior",
+                "subTitle": "janeiro de 2017 - junho de 2020 (3 anos 6 meses)",
+                "description": "Clinica Médica 28 de Julho - Itabuna, Bahia, Brasil",
+                "content": "Como Desenvolvedor Júnior na Clínica 28 de Julho, fui responsável por conceber e implementar diversas ferramentas de automação que contribuíram significativamente para a eficiência operacional da clínica. Destaco, em particular, a criação de um Sistema de Atendimento via WhatsApp, uma iniciativa inovadora na época em que a modalidade de ferramenta ainda não era tão popular.\nA introdução desse sistema não apenas demonstrou minha habilidade em antecipar e adotar tecnologias emergentes, mas também melhorou a comunicação e o atendimento ao cliente da clínica. Minha atuação como Desenvolvedor Júnior na Clínica 28 de Julho foi marcada por um comprometimento constante com a inovação e a busca por soluções que agregassem valor ao ambiente de trabalho e aos serviços oferecidos pela instituição.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Desenvolvedor trainee",
+                "subTitle": "setembro de 2016 - janeiro de 2017 (5 meses)",
+                "description": "Clinica Médica 28 de Julho - Itabuna, Bahia, Brasil",
+                "content": "No início da minha carreira, enquanto cursava Sistemas de Informação na FTC, destaquei-me como Trainee ao aplicar meu conhecimento prévio para criar um sistema inovador de automação de SMS. Essa iniciativa não apenas reduziu significativamente o tempo operacional, mas também aprimorou a eficiência do processo, possibilitando a inclusão de qualquer campanha automatizada de forma eficaz.\nDevido ao sucesso e impacto positivo desse projeto, fui rapidamente efetivado como Junior, demonstrando minha capacidade de contribuir de maneira proativa e eficiente para os desafios enfrentados pela equipe. Essa experiência inicial marcou o início sólido da minha carreira, estabelecendo um padrão de inovação e excelência que continuo a trazer para os projetos subsequentes ao longo da minha trajetória profissional.",
+                "links": [],
+                "screens": []
+            }
+        ]
+    },
+    "education": {
+        "title": "Educação e Certificações",
+        "list": [
+            {
+                "title": "Ensino Superior, Análise de Sistemas de Computação",
+                "subTitle": "(setembro de 2019 - 2021)",
+                "description": "UniCesumar",
+                "content": "",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Sistemas de Informação, Programação de Computadores",
+                "subTitle": "(2016 - 2020)",
+                "description": "Faculdade de Tecnologia e Ciências",
+                "content": "",
+                "links": [],
+                "screens": []
+            }
+        ]
+    }
+}

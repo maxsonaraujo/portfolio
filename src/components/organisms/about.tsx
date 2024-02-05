@@ -7,6 +7,7 @@ interface AboutProps {
         firstName?: string,
         lastName?: string,
         address?: string,
+        birthday: string,
         phone?: string,
         whatsapp?: string,
         email?: string,
@@ -18,14 +19,25 @@ interface AboutProps {
 }
 export function About(props: AboutProps) {
 
+    const birthdayDate = new Date(props.infor.birthday);
+    const todayDate = new Date();
+
+    //@ts-ignore
+    const difference = todayDate - birthdayDate;
+    const age = Math.floor(difference / (365.25 * 24 * 60 * 60 * 1000));
+
     return (<Content anchor={props.anchor}>
         <div className="flex flex-col bg-white h-min space-y-8">
             <div>
                 <div className="flex text-7xl font-extrabold">
                     <h1 className="mr-4">{props.infor.firstName}</h1><h1 className="text-blue-700">{props.infor.lastName}</h1>
                 </div>
+               
+                <div className="flex-row space-x-2 text-gray-500">
+                    <span>{age} anos</span>
+                </div>
                 <div className="flex-row space-x-2 uppercase text-gray-500">
-                    <span>{props.infor.address},</span><span className="text-gray-500">{props.infor.phone}</span><span className="text-blue-700">{props.infor.email}</span>
+                    <span>{props.infor.address},</span><span className="text-gray-500">{props.infor.phone}</span><span className="text-blue-700">/ {props.infor.email}</span>
                 </div>
             </div>
             <div>

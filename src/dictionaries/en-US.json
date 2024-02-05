@@ -1,0 +1,222 @@
+{
+    "copyright":"Copyright (c) 2024 Maxson Araújo. All rights reserved.",
+    "sidebarMenu": {
+        "home": "Home",
+        "about": "About Me",
+        "experience": "Professional Experience",
+        "education": "Education and Certifications",
+        "skills": "Technical Skills",
+        "projects": "Significant Projects"
+    },
+    "home": {
+        "wellcome": "Welcome to my digital universe!",
+        "presentation": "My name is Maxson Araújo, IT Manager, and passionate programmer. This space is dedicated to presenting my professional journey in a dynamic and innovative way. The Digital Portfolio Project was conceived with the purpose of offering a comprehensive view of the key milestones in my career as a programmer."
+    },
+    "about": {
+        "aboutMe": "I am a Full Stack Systems Analyst and Developer with expertise in Typescript, Next.js, and React Native, also proficient in Python. I highlight my experience in creating automation for banking processes for Corbans, working on challenging projects for various banks. Additionally, I am the main developer of the Smart Signature app, available on the App Store and Play Store. My approach, focused on easy learning, adaptability to changes, and a constant pursuit of professional development, defines my profile. I am open to opportunities that offer growth and stimulating challenges."
+    },
+    "projects": {
+        "title": "Projects",
+        "list": [
+            {
+                "title": "This Portfolio: (EXTRA)",
+                "subTitle": "Development of the Portfolio for Personal Presentation.",
+                "description": "Maxson Araújo - 2024",
+                "content": "The Digital Portfolio is the result of integral creation, available in my GitHub repository through the link below. This initiative is part of the commitment to contribute to open-source development, as all previous projects I've been involved in belong to private companies and cannot be shared. The main goal of this project is to provide a comprehensive view of significant milestones in my journey as a programmer.",
+                "links": [
+                    "https://github.com/maxsonaraujo/portfolio"
+                ],
+                "screens": []
+            },
+            {
+                "title": "Efficient Automation: Proposal Bureau",
+                "subTitle": "Development of the Bureau and Integration of RPAs for Proposal Release Optimization",
+                "description": "Alcifmais - 2023",
+                "content": "As the team leader, I was strategically tasked with directing the design and implementation of the Proposal Bureau, a revolutionary solution that fully automates the credit release process. The original proposal came from the company's central vision, but I highlight my crucial role in the automation architecture, where I presented an innovative approach. Under my leadership, we successfully developed and delivered the project, including the creation of Robotic Process Automations (RPAs) for proposal search and approval operations. Additionally, we implemented a Bureau that classified imported operations based on the company's internal criteria, directing them for approval or rejection.\n\nIt's worth noting that this work was carried out as a service provider for the client Alcifmais, one of the largest banking correspondents in the consigned area in Brazil. My architectural proposal not only increased operational efficiency and reduced approval time but also optimized internal workflow, resulting in a significant improvement in the end-user experience.",
+                "links": [
+                    "https://www.linkedin.com/company/alcifmais",
+                    "https://github.com/alcifmais/alcifroot"
+                ],
+                "screens": []
+            },
+            {
+                "title": "Smart Signature",
+                "subTitle": "Online legal app: consultancy, processes, contracts for Micro and Small Businesses.",
+                "description": "TriggerUp - 2022",
+                "content": "I played a crucial role in the design and implementation of an innovative online legal consulting app, in collaboration with my team at TriggerUp. Our work was essential for the successful launch of the app on both platforms, App Store and Play Store.\n\nThe system, targeted at Micro and Small Businesses, stands out for efficiency, dynamism, and accessibility. I led the creation of a digital environment allowing instant consultations with lawyers via messages, providing vital guidance for business development.",
+                "links": [
+                    "https://play.google.com/store/apps/details?id=br.com.smartsignature",
+                    "https://apps.apple.com/us/app/smart-signature/id1577219766"
+                ],
+                "screens": [
+                    "/img/400x800bb.png",
+                    "/img/400x800bb2.png",
+                    "/img/400x800bb3.png",
+                    "/img/400x800bb4.png"
+                ]
+            },
+            {
+                "title": "SigaCall",
+                "subTitle": "Call System for Clinics and Offices",
+                "description": "AMMPI - 2023",
+                "content": "I developed an innovative TV application integrated with medical offices. The goal was to streamline patient calls, eliminating the need for dedicated staff. Divided into two components, the TV app announces the patient with configurable voice, while the web app allows professionals to manage calls and issue alerts in the corridors. I highlight the direct integration with medical systems, simplifying processes. This solution aims to optimize the patient flow and the experience in the clinical environment.",
+                "links": [
+                    "https://github.com/maxsonaraujo/SigaCall"
+                ],
+                "screens": [
+                    "/img/96e9b14a-cf43-4813-841f-3aee33ea6632.jpeg",
+                    "/img/038e0045-5aeb-4bbd-9c21-5e31beb7ab4a.jpeg",
+                    "/img/ammpi-image.jpeg"
+                ]
+            },
+            {
+                "title": "Whatsapp Service",
+                "subTitle": "Service System for Whatsapp.",
+                "description": "Clinica 28 de Julho - 2021",
+                "content": "As a Junior Developer at Clinica 28 de Julho, I was responsible for conceiving and implementing various automation tools that significantly contributed to the clinic's operational efficiency. I particularly highlight the creation of a Service System via WhatsApp, an innovative initiative at a time when this tool was not yet popular.",
+                "links": [
+                    "https://github.com/maxsonaraujo/SigaCall"
+                ],
+                "screens": []
+            },
+            {
+                "title": "Others",
+                "subTitle": "General Development of Tools and Automations",
+                "description": "Maxson Araújo",
+                "content": "Throughout my professional journey, I have engaged in more than 200 projects, covering automations with RPAs, development of tools (Web, Desktop, and Mobile), integration through APIs, and other innovative solutions. I have experienced the role of TechLead in a variety of projects, both in freelance and service provider contexts. My role has encompassed technical leadership, contributing to the success and efficiency of these endeavors.",
+                "links": [
+                    "https://www.linkedin.com/in/maxsonaraujo",
+                    "https://github.com/maxsonaraujo"
+                ],
+                "screens": []
+            }
+        ]
+    },
+    "skills": {
+        "title": "Technical Skills",
+        "skills": [
+            {
+                "title": "Full Stack Development:",
+                "subTitle": "Full Stack development with expertise in both Front-end and Back-end",
+                "description": "",
+                "content": "Front-end:\n         - TypeScript (Advanced)\n         - Next.js (Intermediate)\n         - React Native - Expo (Advanced)\n         - React (Advanced)\n         - Chakra UI, Shadcn UI, Tailwindcss\n   Back-end:\n         - Node.js (Advanced)\n         - Python (Intermediate)\n         - Express (Advanced)\n         - Next.js, elysia.js\n         - Database:\n              - Experience with various databases (MySQL, PostgreSQL, MongoDB)\nDesktop:\n- C# with WPF and WindowsForms\n- Electron.js\n- Java",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "DevOps",
+                "subTitle": "Experience in essential tools for automation and orchestration of environments",
+                "description": "",
+                "content": "- Docker (Advanced)\n         - Swarm (Intermediate)\n         - Jenkins (Basic)",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Process Automation",
+                "subTitle": "Specialist in Process Automation, focusing on operational efficiency and task optimization through advanced technologies",
+                "description": "",
+                "content": "- Automation robots on web pages:\n              - Playwright (Advanced)\n              - Puppeteer (Intermediate)",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Other Skills",
+                "subTitle": "",
+                "description": "",
+                "content": "- Creation of RESTful APIs\n         - Development of interactive dashboards",
+                "links": [],
+                "screens": []
+            }
+        ]
+    },
+    "experience": {
+        "title": "Professional Experiences",
+        "list": [
+            {
+                "title": "Software Development Manager",
+                "subTitle": "January 2023 - Present",
+                "description": "Alcifmais - Itabuna, Bahia, Brazil",
+                "content": "As a Software Development Manager, I have directly led and supervised development projects, both internal and outsourced, ensuring successful and timely delivery. I maintained my previous roles as Tech Leader and Team Leader, continuing to provide technical guidance and effective leadership to the team.\nMy responsibilities covered efficiently managing Chatbot deployments, resulting in interactive and effective solutions for the company. Additionally, I highlight the creation and implementation of tools, mostly focused on process automation, contributing to operational efficiency.\nAs part of my role, I successfully implemented a DevOps framework using Docker and Swarm, significantly enhancing deployment and automation processes. My continuous commitment to innovation and technical leadership has been crucial to the success and advancement of projects under my management.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Tech Leader",
+                "subTitle": "June 2022 - December 2022 (7 months)",
+                "description": "Alcifmais - Itabuna, Bahia, Brazil",
+                "content": "As a Team Leader, I was strategically assigned to lead the design and development of the Proposal Bureau, an innovative solution that automates the release process. My position as a leader was assigned due to the unique contribution of the idea and structure I proposed, resulting not only in operational efficiency and reduced approval time but also in the optimization of internal workflow and improvement of the end-user experience.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Team Leader",
+                "subTitle": "January 2022 - May 2022 (5 months)",
+                "description": "Alcifmais - Itabuna, Bahia, Brazil",
+                "content": "As a Team Leader, I was strategically assigned to lead the design and development of the Proposal Bureau, an innovative solution that automates the release process. My position as a leader was assigned due to the unique contribution of the idea and structure I proposed, resulting not only in operational efficiency and reduced approval time but also in the optimization of internal workflow and improvement of the end-user experience.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Full Stack Developer",
+                "subTitle": "September 2021 - December 2021 (4 months)",
+                "description": "Alcifmais - Itabuna, Bahia, Brazil",
+                "content": "As a Full Stack Developer in the IT-Development team at Alcifmais, I was responsible for a wide range of responsibilities, demonstrating technical skills and expertise in various phases of the software development life cycle.\nKey Achievements:\n* Refactoring of Delphi System to TypeScript and Express\n* Implementation of Proposal Bureau for Automated Release\n* Creation of Banking Automation Robots",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Full Stack Developer",
+                "subTitle": "January 2021 - June 2023 (2 years 6 months)",
+                "description": "TriggerUp - Itabuna, Bahia, Brazil",
+                "content": "As a freelance Full Stack Developer at TriggerUP, I contributed to the development and implementation of custom software solutions for companies. My role covered both front-end and backend, actively participating in creating efficient and innovative systems.\nI collaborated proactively with the TriggerUP team, ensuring the delivery of projects aligned with the specific needs of each client. My experience in this position reinforced my technical skills, adaptability, and commitment to delivering high-quality solutions in a dynamic freelance work environment.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Development Manager",
+                "subTitle": "June 2020 - September 2021 (1 year 4 months)",
+                "description": "Medical Clinic 28 de Julho - Itabuna, Bahia, Brazil",
+                "content": "Given the growth and complexity of projects, I took on the role of manager, coordinating not only internal initiatives but also overseeing projects carried out by third-party companies.\nMy role encompassed everything from conception to the efficient implementation of technological solutions that significantly improved the clinic's internal processes.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Junior Developer",
+                "subTitle": "January 2017 - June 2020 (3 years 6 months)",
+                "description": "Medical Clinic 28 de Julho - Itabuna, Bahia, Brazil",
+                "content": "As a Junior Developer at Clinic 28 de Julho, I was responsible for conceiving and implementing various automation tools that significantly contributed to the clinic's operational efficiency. I particularly highlight the creation of a Service System via WhatsApp, an innovative initiative at a time when this tool was not yet popular.\nThe introduction of this system not only demonstrated my ability to anticipate and adopt emerging technologies but also improved communication and customer service at the clinic. My role as a Junior Developer at Clinic 28 de Julho was marked by constant commitment to innovation and the search for solutions that added value to the work environment and the services offered by the institution.",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Trainee Developer",
+                "subTitle": "September 2016 - January 2017 (5 months)",
+                "description": "Medical Clinic 28 de Julho - Itabuna, Bahia, Brazil",
+                "content": "At the beginning of my career, while studying Computer Systems at FTC, I stood out as a Trainee by applying my previous knowledge to create an innovative SMS automation system. This initiative not only significantly reduced operational time but also improved process efficiency, enabling the inclusion of any automated campaign effectively.\nDue to the success and positive impact of this project, I was quickly promoted to Junior, demonstrating my ability to contribute proactively and efficiently to the challenges faced by the team. This initial experience marked the solid start of my career, establishing a standard of innovation and excellence that I continue to bring to subsequent projects throughout my professional journey.",
+                "links": [],
+                "screens": []
+            }
+        ]
+    },
+    "education": {
+        "title": "Education and Certifications",
+        "list": [
+            {
+                "title": "Higher Education, Computer Systems Analysis",
+                "subTitle": "(September 2019 - 2021)",
+                "description": "UniCesumar",
+                "content": "",
+                "links": [],
+                "screens": []
+            },
+            {
+                "title": "Information Systems, Computer Programming",
+                "subTitle": "(2016 - 2020)",
+                "description": "Faculty of Technology and Sciences",
+                "content": "",
+                "links": [],
+                "screens": []
+            }
+        ]
+    }
+}

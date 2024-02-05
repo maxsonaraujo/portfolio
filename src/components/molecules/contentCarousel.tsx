@@ -11,9 +11,9 @@ export const ContentCarousel = (props: ContentCarouselProps) => {
     return (<Carousel className="mt-10 md:ml-10 lg:ml-20">
         <CarouselContent>
             {
-                imgs.map(img => {
+                imgs.map((img,index) => {
                     return (
-                        <CarouselItem>
+                        <CarouselItem key={"imgCarousel"+index}>
                             <div>
                                 <img src={img} style={{ maxHeight: "300px", margin: "auto" }} />
                             </div>

@@ -10,7 +10,7 @@ interface ContentProps {
 export function Content({ children, anchor }: ContentProps) {
 
     return (
-        <div id={anchor+"-section"} className="pt-4 snap-start flex items-center min-h-screen pl-20 pr-20" onMouseEnter={() => {
+        <div id={anchor+"-section"} className="pt-4 snap-start flex items-center min-h-screen" onMouseEnter={() => {
 
             const elementsOff = document.getElementsByClassName("sidebar-menu-item");
             for (let i = 0; i < elementsOff.length; i++) {

@@ -23,8 +23,8 @@ export const ContentCarousel = (props: ContentCarouselProps) => {
             }
 
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious  className="max-md:hidden"/>
+        <CarouselNext className="max-md:hidden"/>
     </Carousel>
     )
 }

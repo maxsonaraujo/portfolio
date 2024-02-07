@@ -19,7 +19,7 @@ export function Portifolio({ dictionary }: { dictionary: IDictionary }) {
     const education = "education";
 
     return (
-        <div className="flex">
+        <div className="flex max-md:flex-col">
             <Sidebar dictionary={dictionary}>
                 <SidebarAvatar src={dictionary.profile.avatar} />
                 <SidebarMenuItem anchor={home} label={dictionary.sidebarMenu.home} />
@@ -30,7 +30,7 @@ export function Portifolio({ dictionary }: { dictionary: IDictionary }) {
                 <SidebarMenuItem anchor={education} label={dictionary.sidebarMenu.education} />
             </Sidebar>
 
-            <div className="w-full max-h-screen overflow-auto snap-mandatory snap-y">
+            <div className="w-full md:max-h-screen lg:max-h-screen overflow-auto snap-mandatory snap-y max-md:p-4 p-20">
                 <Home
                     anchor={home}
                     infor={dictionary.home}

@@ -1,16 +1,23 @@
 'use client'
 import { Button } from "@/components/atoms/button";
+import { useState } from "react";
 
 interface SidebarAvatarProps {
     anchor: string,
     label: string,
-    isActive?: boolean
+    isActive?: boolean,
+    setOpened?: (opened: boolean) => void
 }
-export function SidebarMenuItem({ anchor, label, isActive }: SidebarAvatarProps) {
+export function SidebarMenuItem({ anchor, label, isActive, setOpened }: SidebarAvatarProps) {
+
 
     return (
         <div>
             <Button id={anchor} variant="link" className={`sidebar-menu-item text-white transition duration-300 ease-in-out ${isActive ? "underline" : ""}`} onClick={() => {
+
+                if (setOpened)
+                    setOpened(false);
+
                 const targetElement = document.getElementById(anchor + "-section");
                 if (targetElement)
                     targetElement.scrollIntoView({ behavior: 'smooth' });
@@ -27,6 +34,8 @@ export function SidebarMenuItem({ anchor, label, isActive }: SidebarAvatarProps)
                 if (element) {
                     element.classList.add("underline")
                 }
+
+
 
             }
 

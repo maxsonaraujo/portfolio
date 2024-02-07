@@ -7,7 +7,7 @@ export function ContentTitle({ children }: ContentTitleProps) {
 
     return (
         <div>
-            <div className="flex text-7xl font-extrabold">
+            <div className="flex max-md:text-4xl text-7xl font-extrabold">
                 <h1 className="mr-4">{children}</h1>
             </div>
         </div>

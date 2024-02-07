@@ -1,7 +1,10 @@
+'use client'
 import { IDictionary } from "@/lib/dictionary";
-import { ReactNode } from "react";
+import React, { ReactNode, useState } from "react";
 import { Button } from "../atoms/button";
 import { LangSelector } from "../molecules/langSelector";
+import { cn } from "@/lib/utils";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 interface SidebarProps {
     children: ReactNode;
@@ -10,18 +13,50 @@ interface SidebarProps {
 
 export function Sidebar({ children, dictionary }: SidebarProps) {
 
+    const [opened, setOpened] = useState(false);
+
+    const classClosed = "max-md:hidden";
+
+    const classOpenNav = "max-md:fixed flex flex-col max-md:w-full md:w-72 lg:w-72 h-screen bg-blue-900";
+
+
+    const childrenWithProps = React.Children.map(children, child => {
+        // Verifica se o filho é um elemento válido antes de cloná-lo
+        if (React.isValidElement(child)) {
+            //@ts-ignore
+            return React.cloneElement(child, { setOpened });
+        }
+        return child;
+    });
 
     return (
-        <div className="flex flex-col h-screen bg-blue-900">
+        <>
+
+            <div className={cn(classOpenNav, opened ? "" : classClosed)}>
+
+                <div className="flex flex-1 font-bold justify-center items-center flex-col">
+                    {childrenWithProps}
+                </div>
+                <div className="flex text-xs text-center p-4 text-white">
+                    {dictionary.copyright}
+                </div>
+            </div>
+
+
+            <div className="md:hidden lg:hidden flex flex-row-reverse bg-white w-full mt-[-7px] fixed">
+                <Button variant="ghost" size="default" z-Index={'1000'} className="h-14"
+                    onClick={() => {
+                        setOpened(!opened)
+                    }}
+                >
+                    <HamburgerMenuIcon className="h-6 w-6" />
+                </Button>
+            </div>
+
             <LangSelector
                 dictionary={dictionary}
             />
-            <div className="flex flex-1 font-bold max-md:hidden md:w-72 lg:w-72 justify-center items-center flex-col">
-                {children}
-            </div>
-            <div className="flex text-xs text-center p-4 text-white">
-                {dictionary.copyright}
-            </div>
-        </div>
+
+        </>
     );
 }

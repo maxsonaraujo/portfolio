@@ -22,7 +22,7 @@ interface ProjectProps {
 export function Skills(props: ProjectProps) {
 
     return (<Content anchor={props.anchor}>
-        <div className="space-y-8 pb-10">
+        <div className="space-y-8 pb-10 max-md:mt-10">
             <ContentTitle>
                 {props.infor.title}
             </ContentTitle>

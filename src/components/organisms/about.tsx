@@ -27,9 +27,9 @@ export function About(props: AboutProps) {
     const age = Math.floor(difference / (365.25 * 24 * 60 * 60 * 1000));
 
     return (<Content anchor={props.anchor}>
-        <div className="flex flex-col bg-white h-min space-y-8">
+        <div className="flex flex-col bg-white h-min space-y-8 max-md:mt-10">
             <div>
-                <div className="flex text-7xl font-extrabold">
+                <div className="flex max-md:text-4xl text-7xl font-extrabold">
                     <h1 className="mr-4">{props.infor.firstName}</h1><h1 className="text-blue-700">{props.infor.lastName}</h1>
                 </div>
                

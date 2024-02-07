@@ -1,6 +1,17 @@
 import { Portifolio } from "@/components/templates/portfolio";
-import { getDictionaries } from "@/lib/dictionary";
-import Head from "next/head";
+import { DICTIONARIES, getDictionaries } from "@/lib/dictionary";
+import { Metadata } from "next";
+
+export const metadata = ((): Metadata => {
+  const dictionary = getDictionaries(DICTIONARIES.default);
+  const profile = dictionary.profile;
+  const portifolio = dictionary.portifolio;
+
+  return {
+    title: profile.firstName + " " + profile.lastName + " - " + portifolio,
+    description: dictionary.about.aboutMe
+  }
+})();
 
 export default async function Home({ params }: { params: { lang: string } }) {
 
@@ -9,12 +20,6 @@ export default async function Home({ params }: { params: { lang: string } }) {
   const dictionary = getDictionaries(lang);
 
   return (<>
-    <Head>
-      <title>Maxson Araújo - Portfolio</title>
-      <meta name="description" content="Sou um Analista e Desenvolvedor de Sistemas Full Stack com ênfase em Typescript, Next.js e React Native, também proficientes em Python. Destaco minha experiência na criação de automações de processos bancários para Corbans, atuando em projetos desafiadores para diversos bancos. Além disso, sou o principal responsável pelo desenvolvimento do aplicativo Smart Signature, disponível na App Store e Play Store. Minha abordagem centrada no aprendizado fácil, adaptação a mudanças e busca constante por desenvolvimento profissional define meu perfil. Estou aberto a oportunidades que ofereçam crescimento e desafios estimulantes." />
-      {/* Add more meta tags as needed */}
-
-    </Head>
     <Portifolio dictionary={dictionary} />
   </>
   );

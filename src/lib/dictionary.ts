@@ -5,7 +5,11 @@ export type IProfile = typeof profileJson;
 type IDict = typeof dictionaryDefaultJosn;
 export interface IDictionary extends IDict, IProfile { lang: string }
 
-
+export enum DICTIONARIES {
+    ptBr="pt-BR",
+    enUs="en-US",
+    default="en-US"
+}
 
 export const getDictionaries = (lang: string): IDictionary => {
     const dict = require("@/dictionaries/" + lang + ".json")

@@ -34,6 +34,7 @@ export function Portifolio({ dictionary }: { dictionary: IDictionary }) {
                 <Home
                     anchor={home}
                     infor={dictionary.home}
+                    imageSrc={dictionary.profile.avatar}
                 />
                 <About
                     anchor={about}

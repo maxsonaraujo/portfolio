@@ -23,8 +23,9 @@ export function Sidebar({ children, dictionary }: SidebarProps) {
     const childrenWithProps = React.Children.map(children, child => {
         // Verifica se o filho é um elemento válido antes de cloná-lo
         if (React.isValidElement(child)) {
+            const Child = ()=>child;
             //@ts-ignore
-            return React.cloneElement(child, { setOpened });
+            return <Child setOpend={setOpened}/>;
         }
         return child;
     });
@@ -44,7 +45,7 @@ export function Sidebar({ children, dictionary }: SidebarProps) {
 
 
             <div className="md:hidden lg:hidden flex flex-row-reverse bg-white w-full mt-[-7px] fixed">
-                <Button variant="ghost" size="default" z-Index={'1000'} className="h-14"
+                <Button variant="ghost" size="default" className="h-14"
                     onClick={() => {
                         setOpened(!opened)
                     }}

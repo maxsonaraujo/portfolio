@@ -37,7 +37,7 @@ export function About(props: AboutProps) {
                     <span>{age} anos</span>
                 </div>
                 <div className="flex-row space-x-2 uppercase text-gray-500">
-                    <span>{props.infor.address},</span><span className="text-gray-500">{props.infor.phone}</span><span className="text-blue-700">/ {props.infor.email}</span>
+                    <span>{props.infor.address},</span><span className="text-gray-500"><a href={"tel:"+props.infor.phone?.replaceAll(" ","")}>{props.infor.phone}</a></span><span className="text-blue-700">/ <a href={"mailto:"+props.infor.email}>{props.infor.email}</a></span>
                 </div>
             </div>
             <div>

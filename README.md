@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfólio Digital - Next.js
 
-## Getting Started
+Este projeto é um portfólio desenvolvido com Next.js, criado com o propósito de apresentação pessoal e demonstração de habilidades.
 
-First, run the development server:
+## Sobre o Projeto
+
+O Portfólio Digital foi criado integralmente como uma iniciativa pessoal e está disponível no repositório do GitHub através do seguinte link: [Repositório do Portfólio](https://github.com/maxsonaraujo/portfolio). Esta ação reflete meu compromisso com o desenvolvimento de códigos abertos. Diferentemente dos projetos anteriores, que estavam associados a empresas privadas e não podiam ser compartilhados, este portfólio é uma maneira de contribuir para a comunidade de desenvolvimento de software.
+
+## Instruções de Uso
+
+Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Após executar o comando acima, abra o navegador e acesse http://localhost:3000 para visualizar o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode editar os dados de apresentação pessoal modificando os arquivos json `src/dictionaries/en-US.json`, `src/dictionaries/pt-BR.json` e `src/dictionaries/profile.json`. Os dados da página são atualizados conforme as mudanças nos arquivos são editados. Para adicionar outros idiomas, basta copiar a estrutura JSON com o texto no idioma desejado e salvar o arquivo seguindo o padrão de nomenclatura dos demais arquivos.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Recursos Adicionais
 
-## Learn More
+Para aprender mais sobre Next.js, consulte os seguintes recursos:
 
-To learn more about Next.js, take a look at the following resources:
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e a API do Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - um tutorial interativo do Next.js.
+- Você também pode conferir o [repositório do Next.js no GitHub](https://github.com/vercel/next.js). Seu feedback e contribuições são bem-vindos!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy no Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+A maneira mais fácil de implantar sua aplicação Next.js é usando a plataforma Vercel, criadora do Next.js. Para mais detalhes, consulte a [documentação de deploy da Vercel.](https://vercel.com/docs).
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](https://github.com/maxsonaraujo/portfolio/blob/main/LICENSE.md) para obter mais detalhes.

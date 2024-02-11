@@ -17,15 +17,14 @@ export function Sidebar({ children, dictionary }: SidebarProps) {
 
     const classClosed = "max-md:hidden";
 
-    const classOpenNav = "max-md:fixed flex flex-col max-md:w-full md:w-72 lg:w-72 h-screen bg-blue-900";
+    const classOpenNav = "z-40 max-md:fixed flex flex-col max-md:w-full md:w-72 lg:w-72 h-screen bg-blue-900";
 
-
-    const childrenWithProps = React.Children.map(children, child => {
-        // Verifica se o filho é um elemento válido antes de cloná-lo
+    const childrenWithProps: React.ReactNode[] = [];
+    React.Children.map(children, child => {
         if (React.isValidElement(child)) {
-            const Child = ()=>child;
-            //@ts-ignore
-            return <Child setOpend={setOpened}/>;
+            const props = { ...child.props, setOpened: (value: boolean) => setOpened(value) }
+            const nChild = { ...child, props };
+            childrenWithProps.push(nChild);
         }
         return child;
     });
@@ -44,7 +43,7 @@ export function Sidebar({ children, dictionary }: SidebarProps) {
             </div>
 
 
-            <div className="md:hidden lg:hidden flex flex-row-reverse bg-white w-full mt-[-7px] fixed">
+            <div className="md:hidden lg:hidden flex flex-row-reverse bg-white w-full mt-[-7px] fixed z-50">
                 <Button variant="ghost" size="default" className="h-14"
                     onClick={() => {
                         setOpened(!opened)

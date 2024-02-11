@@ -7,18 +7,16 @@ type Props = {
   searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export async function generateMetadata(
-  { params, searchParams }: Props,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
-  // read route params
+export async function generateMetadata({ params, searchParams }: Props, parent: ResolvingMetadata): Promise<Metadata> {
   const lang = params.lang
-
+  
   const dictionary = getDictionaries(lang);
   const profile = dictionary.profile;
   const portifolio = dictionary.portifolio;
+  const srcURL = new URL(dictionary.profile.avatar);
 
   return {
+    metadataBase: new URL(srcURL.origin),
     title: profile.firstName + " " + profile.lastName + " - " + portifolio,
     description: dictionary.about.aboutMe,
     openGraph: {

@@ -12,7 +12,7 @@ export function LangSelector({ dictionary }: { dictionary: IDictionary }) {
     const router = useRouter();
 
     return (<>
-        <div className="flex text-xs items-center justfy-center fixed max-md:right-16 top-2 right-6">
+        <div className="flex z-50 text-xs items-center justfy-center fixed max-md:right-16 top-2 right-6">
 
             <Button variant="link" className={isPtBr ? bold : normal}
                 onClick={() => {

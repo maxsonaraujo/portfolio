@@ -10,7 +10,7 @@ interface SidebarAvatarProps {
 }
 export function SidebarMenuItem({ anchor, label, isActive, setOpened }: SidebarAvatarProps) {
 
-
+    console.log(setOpened)
     return (
         <div>
             <Button id={anchor} variant="link" className={`sidebar-menu-item text-white transition duration-300 ease-in-out ${isActive ? "underline" : ""}`} onClick={() => {

@@ -7,7 +7,7 @@
 **Contato:** +55 73 98895-8985 | maxson.jordan@gmail.com.br  
 **LinkedIn:** [linkedin.com/in/maxsonaraujo](https://www.linkedin.com/in/maxsonaraujo)  
 **GitHub:** [github.com/maxsonaraujo](https://github.com/maxsonaraujo)  
-**Portfólio:** [maxsonaraujo.github.io](https://maxsonaraujo.github.io)
+**Portfólio:** [maxsonaraujo.github.io](https://maxsonaraujo.github.io](https://portfolio-git-main-maxsonaraujo.vercel.app/pt-BR)
 
 **Resumo Profissional**  
 Sou um Analista e Desenvolvedor de Sistemas Full Stack com foco em TypeScript, Next.js e React Native, também com conhecimentos sólidos em Python. Minha experiência inclui automação de processos bancários e liderança no desenvolvimento de projetos inovadores, como o aplicativo **Smart Signature**, disponível nas principais plataformas. Valorizo aprendizado contínuo, adaptação às mudanças e busca por soluções eficientes. Estou aberto a oportunidades que ofereçam crescimento e desafios.

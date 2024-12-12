@@ -3,7 +3,7 @@
 ---
 
 ### **Maxson Araújo**  
-**32 anos | Itabuna, Bahia, Brasil**  
+**32 anos | Petrolina, Pernambuco, Brasil**  
 **Contato:** +55 73 98895-8985 | maxson.jordan@gmail.com.br  
 **LinkedIn:** [linkedin.com/in/maxsonaraujo](https://www.linkedin.com/in/maxsonaraujo)  
 **GitHub:** [github.com/maxsonaraujo](https://github.com/maxsonaraujo)  
